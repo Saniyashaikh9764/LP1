@@ -1,0 +1,24 @@
+1.for hpc1 and 2
+
+ssh user@ip
+password
+mkdir anything
+nano file.cu
+
+nvcc file.cu
+./a.out
+
+2.for Openmp
+
+g++ -fopenmp file.cpp
+./a.out
+
+3.for mpi
+
+mpicc file.c
+./a.out
+
+or
+mpic++ file.cpp
+
+
